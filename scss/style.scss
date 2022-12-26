@@ -1,0 +1,54 @@
+$html-font-size: 15px;
+
+@function stripUnit($value) {
+    @return $value / ($value * 0 + 1);
+}
+
+@function rem($pxValue) {
+    @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+}
+
+// Colors
+
+$white: hsl(0, 0%, 100%);
+$light_gray: hsl(212, 45%, 89%);
+$grayish_blue: hsl(220, 15%, 55%);
+$dark_blue: hsl(218, 44%, 22%);
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: rem(15px);
+    background-color: $light_gray;
+}
+
+.container-fluid {
+    min-height: 100vh;
+}
+
+.main {
+    background-color: $white;
+    padding: rem(15px);
+    border-radius: 5%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    img {
+        border-radius: 5%;
+    }
+
+    h1 {
+        padding: rem(20px) rem(10px) 0 rem(10px);
+        color: $dark_blue;
+        font-size: rem(20px);
+        font-weight: 700;
+    }
+
+    p {
+        color: $grayish_blue;
+        padding: rem(10px);
+        font-size: rem(14px);
+        line-height: rem(16px);
+        font-weight: 400;
+    }
+}
+.attribution {
+    margin-top: rem(20px);
+}

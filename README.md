@@ -24,7 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://siberiashaman.github.io/qr-code/)
+- Live Site URL: [siberiashaman.github.io/qr-code/](https://siberiashaman.github.io/qr-code/)
 
 ## My process
 
@@ -43,8 +43,8 @@ I want to redo the layout using grids or flexboxes in the future
 
 ### Useful resources
 
-- [Example resource 1](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - This helped me to make up the page.
-- [Example resource 2](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) - I forgot how to use padding in one line :)
+- [getbootstrap.com/docs/](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - This helped me to make up the page.
+- [developer.mozilla.org/padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) - I forgot how to use padding in one line :)
 
 
 ## Author
